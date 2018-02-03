@@ -39,12 +39,12 @@
 
       <div class="nav-scroller py-1 mb-2">
         <nav class="nav d-flex justify-content-between">
-          <a class="p-2 text-muted" href="#">App Reviews</a>
+          <a class="p-2 text-muted" href="appreviewspage.html" target="_blank" >App Reviews</a>
           <a class="p-2 text-muted" href="#">Rom Reviews</a>
           <a class="p-2 text-muted" href="#">Tutorials</a>
           <a class="p-2 text-muted" href="#">Home Screens</a>
           <a class="p-2 text-muted" href="#">Game Reviews</a>
-         
+
         </nav>
       </div>
 
@@ -55,7 +55,7 @@
           <p class="lead mb-0"><a href="firstarticle.html"  target="_blank" class="text-white font-weight-bold">Continue reading...</a></p>
         </div>
       </div>
- 
+
       <div class="row mb-2">
         <div class="col-md-6">
           <div class="card flex-md-row mb-4 box-shadow h-md-250">
@@ -120,7 +120,7 @@
             <p>Since I already have it installed, the active version numbers are green. You’ll see yours are still red. Press the Install/Update button. You will be prompted to allow Xposed root access. Once that’s done, you can reboot by pressing the Reboot button. Do not use the Soft reboot option.</p>
             <p>After rebooting, launch the Xposed Installer from your app drawer & tap Download. This is where you can find Xposed Modules from the <a href="http://repo.xposed.info/"> Xposed Repository</a>  within the Installer. Tap the search icon at the top.</p>
             <p>By the time you’ve typed “grav”, you’ll see GravityBox [KK] and GravityBox [JB]. Pick your applicable flavor and swipe to the right to the Versions tab.</p>
-           
+
             <p>Tap the Download button to install the latest version. After it’s installed, tap Done instead of Open like you normally might. You’ll soon see a new notification from the Xposed Installer that you have a module installed but not activated. The notification will give you the option to activate & reboot. Alternately, you can hit your Back button twice to return to the main Xposed Installer menu & tap Modules. You’ll see GravityBox listed. Check the box on the right to activate it & reboot.</p>
             <p>Now that you’ve successfully installed GravityBox, activated it & rebooted you’re ready to start tweaking the settings to you liking. You’ll find GravityBox in your app drawer just like any other app.</p>
             <p>Screenshot tutorial  coming soon!</p> </p>Here’s a video installation & activation tutorial:</p></p>
@@ -147,7 +147,7 @@
                 <pre><code>wget https://dl.google.com/android/repository/platform-tools-latest-linux.zip</code></pre>
                  <pre><code>unzip \platform-tools-latest-linux.zip</code></pre>
                   <pre><code>sudo cp platform-tools/adb /usr/bin/adb</code></pre>
-                   <pre><code>sudo cp platform-tools/fastboot /usr/bin/fastboot</code></pre>          
+                   <pre><code>sudo cp platform-tools/fastboot /usr/bin/fastboot</code></pre>
             </blockquote>
 
             <p>Now run adb version to verify it’s been updated.</p> <p>Copy & paste that into your favorite text editor like gedit or notepad, save it as a shell script and make it executable. When a new version of Android is released would be a good time to run it in case there’s new version of the platform tools.</p>
@@ -165,10 +165,10 @@
                <li>If you’re a franco.Kernel user & have FKU installed, You can use the built-in File Manager to browse to anywhere on your SD card & choose your boot.img</li>
                <li>Open an existing flashable ZIP, replace the boot.img with the newer one then flash it via recovery</li>
                <li>Copy your boot.img to the root of your SD card. Then type the following in an adb shell:  dd if=/sdcard/boot.img of=/dev/block/platform/msm_sdcc.1/by-name/boot.img</li>
-            </ol>  
+            </ol>
 
-          <p>— credit goes to Francisco Franco (XDA, G+) for inspiring me to write this</p>        
-    
+          <p>— credit goes to Francisco Franco (XDA, G+) for inspiring me to write this</p>
+
             </div>
           </div><!-- /.blog-post -->
          <div class="blog-post">
