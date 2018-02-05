@@ -6,7 +6,12 @@ body {
 pre {
     color: #00ff0a;
 }​
-
+.homez {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 .text-muted {
     color: #f1f1f1;
 }
