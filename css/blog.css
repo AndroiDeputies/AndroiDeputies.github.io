@@ -1,12 +1,14 @@
 /* stylelint-disable selector-list-comma-newline-after */
 body {
-
-  background-color: #373a3e;
+ background-image: url("../images/backboard.jpg");
+  background-color: #1B2631;
 }
 pre {
     color: #00ff0a;
 }​
-
+.col-md-8 {
+  background-color: #f1f1f1;
+}
 .jumbotron .p-3 .p-md-5 .homez {
 max-width:170px;
   max-height: 323px;
